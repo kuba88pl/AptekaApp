@@ -47,6 +47,7 @@
         android:hint="e-mail"
         android:padding="20dp"
         android:textColor="@color/black"
+        android:inputType="textEmailAddress"
         android:textColorHint="@color/edit_text_hint"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -100,7 +101,8 @@
         android:textColor="@color/black"
         android:textColorHint="@color/edit_text_hint"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="textPassword">
 
     </EditText>
 
@@ -117,7 +119,8 @@
         android:textColor="@color/black"
         android:textColorHint="@color/edit_text_hint"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="textPassword">
 
 
     </EditText>
