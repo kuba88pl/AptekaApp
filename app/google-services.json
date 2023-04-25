@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255922457667",
+    "project_id": "aptekaapp-7cc7d",
+    "storage_bucket": "aptekaapp-7cc7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255922457667:android:f05f4bd3a48b68577a98f6",
+        "android_client_info": {
+          "package_name": "com.aptekaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255922457667-gbi5r7c8ut7pg1ti9utflflbevpd8cb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAou5m53SxEJvACyaD0K_3ff3pK0-ZIgyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255922457667-gbi5r7c8ut7pg1ti9utflflbevpd8cb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

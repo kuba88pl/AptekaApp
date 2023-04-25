@@ -121,8 +121,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:inputType="textPassword">
-
-
     </EditText>
 
     <ImageButton
@@ -131,11 +129,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
         android:layout_marginEnd="34dp"
-        android:layout_marginBottom="142dp"
+        android:layout_marginBottom="140dp"
         android:background="@null"
         android:src="@drawable/create_account_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button

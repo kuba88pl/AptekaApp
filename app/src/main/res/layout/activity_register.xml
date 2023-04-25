@@ -15,8 +15,7 @@
         android:src="@drawable/logo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageButton
@@ -28,8 +27,7 @@
         android:src="@drawable/signin"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"/>
-
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
 
     <TextView
@@ -43,7 +41,7 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/signin"/>
+        app:layout_constraintTop_toBottomOf="@id/signin" />
 
     <ImageButton
         android:id="@+id/signup"
@@ -54,7 +52,7 @@
         android:src="@drawable/signup"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/signin"/>
+        app:layout_constraintTop_toBottomOf="@id/signin" />
 
     <Button
         android:id="@+id/button_statue"
@@ -66,7 +64,7 @@
         android:text="Regulamin"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button_delivery"
@@ -80,7 +78,7 @@
         android:text="Dostawa"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <Button
@@ -93,9 +91,7 @@
         android:text="O nas"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
-
-
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
