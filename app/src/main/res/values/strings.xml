@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AptekaApp</string>
+    <string name="signin_button">Logowanie</string>
+    <string name="signup_button">Rejestracja</string>
+    <string name="state_button">Regulamin</string>
+    <string name="delivery_button">Dostawa</string>
+    <string name="about_us_button">O nas</string>
+    <string name="account_create_label">Tworzenie konta</string>
 </resources>

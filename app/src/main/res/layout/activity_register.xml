@@ -6,14 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
 
-
-
         <ImageView
+            android:id="@+id/logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/logo"
-            android:src="@drawable/logo"
             android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
             android:layout_marginTop="50dp">
 
         </ImageView>
@@ -66,7 +64,9 @@
         android:layout_marginTop="177dp"
         android:background="@android:color/transparent"
         android:text="Regulamin"
-        android:textColor="@color/black"></Button>
+        android:textColor="@color/black">
+
+    </Button>
 
     <Button
         android:id="@+id/button_delivery"
@@ -76,8 +76,10 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="177dp"
         android:background="@android:color/transparent"
-        android:text="Regulamin"
-        android:textColor="@color/black"></Button>
+        android:text="Dostawa"
+        android:textColor="@color/black">
+
+    </Button>
 
     <Button
         android:id="@+id/button_about_us"
@@ -86,10 +88,11 @@
         android:layout_below="@id/signup"
         android:layout_alignParentRight="true"
         android:layout_marginTop="177dp"
-        android:layout_marginRight="1dp"
         android:background="@android:color/transparent"
-        android:text="Regulamin"
-        android:textColor="@color/black"></Button>
+        android:text="O nas"
+        android:textColor="@color/black">
+
+    </Button>
 
 
 </RelativeLayout>
