@@ -15,9 +15,8 @@
         android:src="@drawable/logo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    </ImageView>
 
     <EditText
         android:id="@+id/email"
@@ -33,9 +32,8 @@
         android:textColorHint="@color/edit_text_hint"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:inputType="textEmailAddress">
+        android:inputType="textEmailAddress"/>
 
-    </EditText>
 
     <EditText
         android:id="@+id/password"
@@ -51,9 +49,7 @@
         android:textColor="@color/black"
         android:textColorHint="@color/edit_text_hint"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </EditText>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageButton
         android:id="@+id/signin"
@@ -65,9 +61,7 @@
         android:src="@drawable/signin"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password">
-
-    </ImageButton>
+        app:layout_constraintTop_toBottomOf="@id/password"/>
 
     <Button
         android:id="@+id/state"
