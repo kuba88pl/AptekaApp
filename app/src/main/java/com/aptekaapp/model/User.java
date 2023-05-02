@@ -11,14 +11,15 @@ public class User {
     String pesel;
 
 
-    public User () {
+    public User() {
 
     }
 
-    public User(String email, String firstNamename, String lastName, String password, String pesel) {
+    public User(String email, String firstNamename, String lastName,
+                String password, String pesel) {
         this.email = email;
         this.firstName = firstName;
-        this. lastName = lastName;
+        this.lastName = lastName;
         this.password = password;
         this.pesel = pesel;
     }
@@ -64,7 +65,7 @@ public class User {
     }
 
     public void checkEmail() {
-        if(email.isEmpty() && email.charAt(1) != '@') {
+        if (email.isEmpty() && email.charAt(1) != '@') {
             System.out.println("Podaj poprawny email!");
         }
     }
@@ -82,10 +83,11 @@ public class User {
     }
 
     public void checkPesel() {
-        if(pesel.isEmpty() && pesel.length() > 10){
+        if (pesel.isEmpty() && pesel.length() > 10) {
             System.out.println("Podaj poprawny PESEL");
         }
     }
+
     public void checkPassword() {
         if (password.length() > 4) {
             System.out.println("Hasło powinno zawierać conajmniej 5 znaków!");
