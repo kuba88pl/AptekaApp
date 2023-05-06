@@ -58,13 +58,13 @@
         android:id="@+id/logo_opacity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="72dp"
         android:src="@drawable/logo_rotated"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
     <TextView
         android:id="@+id/company_name_label"
@@ -93,32 +93,35 @@
         android:id="@+id/name_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="-105dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="291dp"
         android:paddingLeft="10dp"
         android:text="Imię"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/company_name"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/last_name_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="273dp"
-        android:layout_marginEnd="141dp"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="112dp"
         android:text="Nazwisko"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/name_edit_text"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="292dp"
+        android:layout_width="148dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="313dp"
         android:hint="Jan"
         android:paddingLeft="10dp"
         android:textColor="@color/black"
@@ -126,11 +129,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/lastname_edit_text"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="208dp"
-        android:layout_marginTop="292dp"
+        android:id="@+id/lastName_edit_text"
+        android:layout_width="148dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="313dp"
         android:hint="Kowalski"
         android:paddingLeft="10dp"
         android:textColor="@color/black"
@@ -151,7 +154,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/adress_data"
+        android:id="@+id/adress_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="459dp"
@@ -203,8 +206,8 @@
         android:id="@+id/city"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="532dp"
         android:hint="Warszawa"
         android:paddingLeft="10dp"
         android:textAlignment="center"
@@ -212,16 +215,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/save_changes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="620dp"
         android:background="@null"
+        android:backgroundTint="@color/black"
         android:src="@drawable/save_changes_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
+        android:text="@string/SaveChanges"
+        android:textSize="20sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

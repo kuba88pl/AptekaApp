@@ -25,4 +25,18 @@
         app:cornerRadius="0dp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="410dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/shipData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="484dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/shipmentData"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

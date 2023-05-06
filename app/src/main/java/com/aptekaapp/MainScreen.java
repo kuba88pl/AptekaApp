@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainScreen extends AppCompatActivity {
- MaterialButton logoutBtn;
+ MaterialButton logoutBtn, shipmentDataBtn;
  TextView textView;
  FirebaseAuth auth;
  FirebaseUser user;
@@ -22,6 +22,7 @@ public class MainScreen extends AppCompatActivity {
         setContentView(R.layout.activity_main_screen);
         auth = FirebaseAuth.getInstance();
         logoutBtn = findViewById(R.id.logoutBtn);
+        shipmentDataBtn = findViewById(R.id.shipData);
         textView = findViewById(R.id.textView);
         user = auth.getCurrentUser();
         if(user == null) {
@@ -42,6 +43,12 @@ public class MainScreen extends AppCompatActivity {
             }
         });
 
-
+        shipmentDataBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ShipmentData.class);
+                startActivity(intent);
+            }
+        });
     }
 }
