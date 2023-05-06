@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainScreen">
 
+
+
+    <ImageButton
+        android:id="@+id/shopping_cart_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+
+        android:src="@drawable/baseline_shopping_cart_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -25,4 +38,19 @@
         app:cornerRadius="0dp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="410dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/shipData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="484dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/shipmentData"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
