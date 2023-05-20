@@ -14,6 +14,21 @@
         android:theme="@style/Theme.AptekaApp"
         tools:targetApi="31">
         <activity
+            android:name=".suplementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".otherDrugs"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs$otherDrugs"
+            android:exported="false" />
+        <activity
+            android:name=".nonReciptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".onReciptActivity"
+            android:exported="false" />
+        <activity
             android:name=".ShoppingCart"
             android:exported="false" />
         <activity
