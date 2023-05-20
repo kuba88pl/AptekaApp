@@ -49,11 +49,10 @@
         android:id="@+id/mainTextState"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/mainTextState"
-        app:layout_constraintTop_toBottomOf="@+id/header"
-        tools:layout_editor_absoluteX="16dp" />
-
+        android:padding="65dp"
+        android:text="@string/Regulamin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
