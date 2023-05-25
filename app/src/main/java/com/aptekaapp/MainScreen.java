@@ -6,18 +6,16 @@ import androidx.appcompat.widget.AppCompatImageButton;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainScreen extends AppCompatActivity {
-    AppCompatImageButton onReciptBtn, nonReciptBtn, suplementsBtn, othersBtn;
+    AppCompatImageButton onReciptBtn, nonReciptBtn,
+            suplementsBtn, othersBtn, shoppingCartBtn;
 
     FirebaseAuth auth;
     FirebaseUser user;
-
-    ImageButton shoppingCart;
 
 
     @Override
@@ -29,13 +27,14 @@ public class MainScreen extends AppCompatActivity {
         nonReciptBtn = findViewById(R.id.nonReciptBtn);
         suplementsBtn = findViewById(R.id.suplementsBtn);
         othersBtn = findViewById(R.id.othersBtn);
+        shoppingCartBtn = findViewById(R.id.shopping_cart);
         user = auth.getCurrentUser();
 
 
         onReciptBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), onReciptActivity.class);
+                Intent intent = new Intent(getApplicationContext(), PrescriptionDrugsActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -44,7 +43,7 @@ public class MainScreen extends AppCompatActivity {
         nonReciptBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), nonReciptActivity.class);
+                Intent intent = new Intent(getApplicationContext(), NoPrescriptionDrugsActivity.class);
                 startActivity(intent);
             }
         });
@@ -60,6 +59,14 @@ public class MainScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), suplementActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        shoppingCartBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ShoppingCart.class);
                 startActivity(intent);
             }
         });

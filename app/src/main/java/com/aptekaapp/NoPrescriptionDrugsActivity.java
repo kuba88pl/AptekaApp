@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class nonReciptActivity extends AppCompatActivity {
+public class NoPrescriptionDrugsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_non_recipt);
+        setContentView(R.layout.activity_non_prescription_drugs);
     }
 }

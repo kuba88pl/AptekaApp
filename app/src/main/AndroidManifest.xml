@@ -23,10 +23,10 @@
             android:name=".AboutUs$otherDrugs"
             android:exported="false" />
         <activity
-            android:name=".nonReciptActivity"
+            android:name=".NoPrescriptionDrugsActivity"
             android:exported="false" />
         <activity
-            android:name=".onReciptActivity"
+            android:name=".PrescriptionDrugsActivity"
             android:exported="false" />
         <activity
             android:name=".ShoppingCart"

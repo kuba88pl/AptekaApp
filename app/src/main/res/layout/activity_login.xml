@@ -1,46 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:orientation="vertical">
+    android:background="@drawable/welcome"
+
+    tools:context=".Login">
 
     <ImageView
-        android:layout_width="match_parent"
+        android:id="@+id/login_app_logo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logo"
-        android:src="@drawable/logo"
-        android:paddingTop="50dp"
-        android:layout_gravity="center" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:alpha="0.7"
+        android:src="@drawable/logo" />
+
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableRight="@drawable/baseline_email_24"
         android:id="@+id/email"
-        android:hint="@string/e_mail"
-        android:layout_marginTop="80dp"
-        android:inputType="textEmailAddress"/>
-
-    <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/login_app_logo"
+        android:padding="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/password"
-        android:drawableRight="@drawable/baseline_lock_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
         android:hint="@string/password"
-        android:layout_marginTop="50dp"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_below="@id/email"/>
+
+
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/loginBtn"
-        android:text="@string/login_button"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:layout_marginTop="80dp"
-        android:backgroundTint="@color/black"
-        app:cornerRadius="0dp"/>
-</LinearLayout>
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:alpha="0.5"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+
+
+
+
+</RelativeLayout>
