@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         loginBtn = findViewById(R.id.loginBtn);
         registerBtn = findViewById(R.id.registerBtn);
-        faqBtn = findViewById(R.id.faqBtn);
+//        faqBtn = findViewById(R.id.faqBtn);
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,12 +51,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        faqBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Informations.class);
-                startActivity(intent);
-            }
-        });
+//        faqBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(MainActivity.this, Informations.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }

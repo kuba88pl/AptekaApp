@@ -42,8 +42,8 @@ public class Register<EmailPasswordActivity> extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         editTextEmail = findViewById(R.id.email);
-        editTextPassword = findViewById(R.id.password);
-        editTextConfirmPassword = findViewById(R.id.confirmPassword);
+        editTextPassword = findViewById(R.id.register_password_input);
+        editTextConfirmPassword = findViewById(R.id.register_confirm_password_input);
         registerBtn = findViewById(R.id.registerBtn);
 
         registerBtn.setOnClickListener(new View.OnClickListener() {

@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "255922457667",
+    "firebase_url": "https://aptekaapp-7cc7d-default-rtdb.firebaseio.com",
     "project_id": "aptekaapp-7cc7d",
     "storage_bucket": "aptekaapp-7cc7d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:255922457667:android:f05f4bd3a48b68577a98f6",
+        "mobilesdk_app_id": "1:255922457667:android:61e1dc32322eeb337a98f6",
         "android_client_info": {
           "package_name": "com.aptekaapp"
         }

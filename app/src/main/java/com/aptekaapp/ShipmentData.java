@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 
+import java.util.Scanner;
+
 public class ShipmentData extends AppCompatActivity {
 
     EditText companyNameEditText, nameEditText, lastNameEditText, adressEditText, postalCodeEditText, cityEditText;
