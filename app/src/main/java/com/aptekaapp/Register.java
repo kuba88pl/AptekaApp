@@ -69,6 +69,11 @@ public class Register<EmailPasswordActivity> extends AppCompatActivity {
                     return;
                 }
 
+                if (password.length() < 6) {
+                    Toast.makeText(Register.this, "Hasło powinno mieć przynajmniej 6 znaków!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
                 if (TextUtils.equals(password, confirmPassword)) {
                     mAuth.createUserWithEmailAndPassword(email, password)
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -76,12 +81,11 @@ public class Register<EmailPasswordActivity> extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
                                         Toast.makeText(Register.this, "Pomyślnie utworzono konto", Toast.LENGTH_SHORT).show();
-
+                                        startActivity(new Intent(Register.this, MainActivity.class));
                                     } else {
                                         // If sign in fails, display a message to the user.
-                                        Toast.makeText(Register.this, "Operacja zakończona niepowodzeniem",
+                                        Toast.makeText(Register.this, "Operacja zakończona niepowodzeniem" + task.getException(),
                                                 Toast.LENGTH_SHORT).show();
-
                                     }
                                 }
                             });
