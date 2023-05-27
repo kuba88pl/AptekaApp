@@ -14,6 +14,9 @@
         android:theme="@style/Theme.AptekaApp"
         tools:targetApi="31">
         <activity
+            android:name=".OnBoardingActivity"
+            android:exported="false" />
+        <activity
             android:name=".suplementActivity"
             android:exported="false" />
         <activity

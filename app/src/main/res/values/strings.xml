@@ -75,5 +75,10 @@
     <string name="welcomeText">Zawsze gdy jesteś w potrzebie</string>
     <string name="login">Zaloguj</string>
     <string name="create_account">Utwórz konto</string>
+    <string name="first_slide">Wybierz swoje produkty</string>
+    <string name="second_slide">Szybka dostawa</string>
+    <string name="third_slide">Najlepsza obsługa</string>
+    <string name="description">BLABLABLA DO ZMIANY</string>
+
 
 </resources>
