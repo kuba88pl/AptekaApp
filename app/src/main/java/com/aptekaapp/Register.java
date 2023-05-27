@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -24,13 +25,14 @@ public class Register<EmailPasswordActivity> extends AppCompatActivity {
     TextInputEditText editTextEmail, editTextPassword, editTextConfirmPassword;
     MaterialButton registerBtn;
     FirebaseAuth mAuth;
+//    SharedPreferences sharedPreferences;
     @Override
     public void onStart() {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser != null) {
-            Intent intent = new Intent(getApplicationContext(), MainScreen.class);
+            Intent intent = new Intent(getApplicationContext(), OnBoardingActivity.class);
             startActivity(intent);
             finish();
         }
@@ -39,12 +41,29 @@ public class Register<EmailPasswordActivity> extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+//        getSupportActionBar().hide();
+
         mAuth = FirebaseAuth.getInstance();
 
         editTextEmail = findViewById(R.id.email);
         editTextPassword = findViewById(R.id.register_password_input);
         editTextConfirmPassword = findViewById(R.id.register_confirm_password_input);
         registerBtn = findViewById(R.id.registerBtn);
+
+//        sharedPreferences = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
+//
+//        boolean isFirstTime = sharedPreferences.getBoolean("firstTime", true);
+
+//        if(isFirstTime) {
+//
+//            SharedPreferences.Editor editor = sharedPreferences.edit();
+//            editor.putBoolean("firstTime", false);
+//            editor.commit();
+//
+//            Intent intent = new Intent(Register.this, OnBoardingActivity.class);
+//            startActivity(intent);
+//            finish();
+//        }
 
         registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override

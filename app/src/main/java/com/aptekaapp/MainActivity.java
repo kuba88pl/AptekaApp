@@ -15,17 +15,17 @@ public class MainActivity extends AppCompatActivity {
 
     FirebaseAuth mAuth;
 // Doesn't work for that moment. I don't know why
-//    @Override
-//    public void onStart() {
-//        super.onStart();
-//        // Check if user is signed in (non-null) and update UI accordingly.
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
 //        FirebaseUser currentUser = mAuth.getCurrentUser();
 //        if (currentUser != null) {
-//            Intent intent = new Intent(getApplicationContext(), MainScreen.class);
+//            Intent intent = new Intent(MainActivity.this, MainScreen.class);
 //            startActivity(intent);
 //            finish();
 //        }
-//    }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
