@@ -20,9 +20,6 @@
             android:name=".otherDrugs"
             android:exported="false" />
         <activity
-            android:name=".AboutUs$otherDrugs"
-            android:exported="false" />
-        <activity
             android:name=".NoPrescriptionDrugsActivity"
             android:exported="false" />
         <activity
