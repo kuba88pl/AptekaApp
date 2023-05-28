@@ -81,6 +81,17 @@
     <string name="description">BLABLABLA DO ZMIANY</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="see_all">See All</string>
+    <string name="category">Kategoria</string>
+    <string name="new_products">Nowe produkty</string>
+    <string name="provide">Polecamy</string>
+    <string name="see_all_products">Zobacz wszystkie</string>
+    <string name="popular_products">Popularne leki</string>
+    <string name="provide2">Polecamy</string>
+    <string name="category_name">Kategoria</string>
+    <string name="new_product">Nowość</string>
+    <string name="otrivin_10ml">Otrivin 10ml</string>
+    <string name="cena_pln">Cena: </string>
 
 
 </resources>

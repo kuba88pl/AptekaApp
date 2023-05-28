@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.aptekaapp.R;
-import com.aptekaapp.activities.MainScreen;
+import com.aptekaapp.activities.MainScreenOld;
 import com.google.android.material.button.MaterialButton;
 
 public class ShipmentData extends AppCompatActivity {
@@ -57,7 +57,7 @@ public class ShipmentData extends AppCompatActivity {
                 if(city.isEmpty()) {
                     Toast.makeText(ShipmentData.this, "Podaj miasto", Toast.LENGTH_SHORT).show();
                 }
-                Intent intent = new Intent(getApplicationContext(), MainScreen.class);
+                Intent intent = new Intent(getApplicationContext(), MainScreenOld.class);
                 startActivity(intent);
                 finish();
             }

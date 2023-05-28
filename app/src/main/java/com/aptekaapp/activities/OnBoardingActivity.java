@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.aptekaapp.R;
 import com.aptekaapp.adapters.SliderAdapter;
+import com.aptekaapp.fragments.HomeFragment;
 import com.google.android.material.button.MaterialButton;
 
 public class OnBoardingActivity extends AppCompatActivity {

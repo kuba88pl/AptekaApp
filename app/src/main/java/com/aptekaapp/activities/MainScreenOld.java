@@ -16,7 +16,7 @@ import com.aptekaapp.otherActivities.suplementActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class MainScreen extends AppCompatActivity {
+public class MainScreenOld extends AppCompatActivity {
     AppCompatImageButton onReciptBtn, nonReciptBtn,
             suplementsBtn, othersBtn, shoppingCartBtn;
 
@@ -27,7 +27,7 @@ public class MainScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_screen);
+        setContentView(R.layout.activity_main_screen_old);
         auth = FirebaseAuth.getInstance();
         onReciptBtn = findViewById(R.id.onReciptBtn);
         nonReciptBtn = findViewById(R.id.nonReciptBtn);

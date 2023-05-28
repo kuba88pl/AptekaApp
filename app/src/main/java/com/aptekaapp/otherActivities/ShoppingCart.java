@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.aptekaapp.R;
-import com.aptekaapp.activities.MainScreen;
+import com.aptekaapp.activities.MainScreenOld;
 import com.google.android.material.button.MaterialButton;
 
 public class ShoppingCart extends AppCompatActivity {
@@ -26,7 +26,7 @@ public class ShoppingCart extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainScreen.class);
+                Intent intent = new Intent(getApplicationContext(), MainScreenOld.class);
                 startActivity(intent);
             }
         });
