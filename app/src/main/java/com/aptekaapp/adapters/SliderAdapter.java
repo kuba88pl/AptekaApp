@@ -1,4 +1,4 @@
-package com.aptekaapp;
+package com.aptekaapp.activities;
 
 import android.content.Context;
 import android.text.Layout;
@@ -12,6 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintHelper;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.aptekaapp.R;
 
 public class SliderAdapter extends PagerAdapter {
 

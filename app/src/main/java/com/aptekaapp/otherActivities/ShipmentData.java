@@ -4,14 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.aptekaapp.activities.MainScreen;
 import com.google.android.material.button.MaterialButton;
-
-import java.util.Scanner;
 
 public class ShipmentData extends AppCompatActivity {
 
