@@ -1,4 +1,4 @@
-package com.aptekaapp;
+package com.aptekaapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageButton;
@@ -7,6 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.aptekaapp.otherActivities.NoPrescriptionDrugsActivity;
+import com.aptekaapp.otherActivities.PrescriptionDrugsActivity;
+import com.aptekaapp.R;
+import com.aptekaapp.otherActivities.ShoppingCart;
+import com.aptekaapp.otherActivities.otherDrugs;
+import com.aptekaapp.otherActivities.suplementActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

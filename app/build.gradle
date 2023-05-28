@@ -71,4 +71,9 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+
+    //Maven dependencies
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    //slider image
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.2'
 }

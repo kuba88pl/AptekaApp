@@ -1,4 +1,4 @@
-package com.aptekaapp;
+package com.aptekaapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -13,10 +13,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.aptekaapp.R;
+import com.aptekaapp.adapters.SliderAdapter;
 import com.google.android.material.button.MaterialButton;
-import com.google.firebase.auth.FirebaseAuth;
-
-import org.w3c.dom.Text;
 
 public class OnBoardingActivity extends AppCompatActivity {
 

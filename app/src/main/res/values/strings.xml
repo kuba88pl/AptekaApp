@@ -79,6 +79,8 @@
     <string name="second_slide">Szybka dostawa</string>
     <string name="third_slide">Najlepsza obsługa</string>
     <string name="description">BLABLABLA DO ZMIANY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

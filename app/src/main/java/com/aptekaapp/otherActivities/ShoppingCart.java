@@ -1,4 +1,4 @@
-package com.aptekaapp;
+package com.aptekaapp.otherActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.aptekaapp.R;
 import com.aptekaapp.activities.MainScreen;
 import com.google.android.material.button.MaterialButton;
 

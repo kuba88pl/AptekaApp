@@ -1,4 +1,4 @@
-package com.aptekaapp.activities;
+package com.aptekaapp.adapters;
 
 import android.content.Context;
 import android.text.Layout;

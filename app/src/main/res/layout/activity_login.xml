@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/welcome"
 
-    tools:context=".Login">
+    tools:context=".activities.Login">
 
     <ImageView
         android:id="@+id/login_app_logo"

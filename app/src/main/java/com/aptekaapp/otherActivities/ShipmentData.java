@@ -1,4 +1,4 @@
-package com.aptekaapp;
+package com.aptekaapp.otherActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.aptekaapp.R;
 import com.aptekaapp.activities.MainScreen;
 import com.google.android.material.button.MaterialButton;
 

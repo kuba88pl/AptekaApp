@@ -1,8 +1,10 @@
-package com.aptekaapp;
+package com.aptekaapp.otherActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.aptekaapp.R;
 
 public class PrescriptionDrugsActivity extends AppCompatActivity {
 

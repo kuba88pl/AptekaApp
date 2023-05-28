@@ -1,4 +1,4 @@
-package com.aptekaapp;
+package com.aptekaapp.otherActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.aptekaapp.R;
 import com.google.android.material.button.MaterialButton;
 
 public class Informations extends AppCompatActivity {
